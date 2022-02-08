@@ -1,0 +1,33 @@
+{
+  "name": "xinsirnuxt-cli",
+  "version": "1.0.0",
+  "description": "生成xinsirnuxt模板的脚手架",
+  "main": "index.js",
+  "bin": {
+    "xinsirnuxt-cli": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xinsira/xinsirnuxt-cli.git"
+  },
+  "keywords": [
+    "xinsirnuxt"
+  ],
+  "author": "xinsir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xinsira/xinsirnuxt-cli/issues"
+  },
+  "homepage": "https://github.com/xinsira/xinsirnuxt-cli#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^9.0.0",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^8.2.0",
+    "log-symbols": "^2.2.0",
+    "ora": "^3.4.0"
+  }
+}
